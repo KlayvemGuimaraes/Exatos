@@ -1,5 +1,5 @@
-import './cardSimple.css'
-import dataNoticias from "../../dados/dataNoticias"
+// import './cardSimple.css'
+import dataNoticias from '../../../dados/dataNoticias';
 
 export const CardSimples = ({ materiaId }) => {
 
@@ -7,6 +7,7 @@ export const CardSimples = ({ materiaId }) => {
     const titulo = dados.titulo
     const resumo = dados.resumo
     const imagemPrincipal = dados.imagens.principal
+    console.log(dados)
     
     return (
         <>

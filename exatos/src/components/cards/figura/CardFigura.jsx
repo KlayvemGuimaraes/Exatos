@@ -1,5 +1,5 @@
 import './cardFigura.css'
-import dataNoticias from "../../dados/dataNoticias"
+import dataNoticias from '../../../dados/dataNoticias';
 
 export const CardFigura = ({ materiaId }) => {
 
@@ -10,15 +10,9 @@ export const CardFigura = ({ materiaId }) => {
     
     return (
         <>
-        <div className="container_cardSimples">
-            <div className="cardSimples_imagem">
-                <img src={imagemPrincipal} />
-            </div>
-
-            <div className="cardSimples_informacoes">
-                <h2>{titulo}</h2>
-                <p>{resumo}</p>
-            </div>
+        <div className="container_cardFigura" style={{backgroundImage: `url(${imagemPrincipal})`}}>
+            <h2>{titulo}</h2>
+            <p>{resumo}</p>
         </div>
         </>
     )

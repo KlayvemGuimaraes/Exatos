@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import CardSimples from './components/simples/CardSimples';
+import CardSimples from './components/cards/simples/CardSimples';
+import CardFigura from './components/cards/figura/CardFigura';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         </p>
 
         <CardSimples materiaId="1"></CardSimples>              
+        <CardFigura materiaId="2"></CardFigura>
 
         <a
           className="App-link"

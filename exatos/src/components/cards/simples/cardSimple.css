@@ -4,7 +4,7 @@
     gap: 50px;
 }
 
-.cardSimples_imagem img{
+.cardSimples_imagem > img{
     object-fit: cover;
     width: 450px;
     height: 250px;
@@ -14,9 +14,9 @@
 .cardSimples_informacoes{
     text-align: left;
 }
-.cardSimples_informacoes h2{
+.cardSimples_informacoes > h2{
     font-size: 25px;
 }
-.cardSimples_informacoes p{
+.cardSimples_informacoes > p{
     font-size: 15px;
 }

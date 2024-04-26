@@ -1,22 +1,9 @@
-.container_cardSimples{
-    display: flex;
+.container_cardFigura{
+    filter: grayscale(100%);
+    padding: 0 45px;
+    padding-top: 300px;
     margin: 30px 150px;
     gap: 50px;
-}
 
-.cardSimples_imagem img{
-    object-fit: cover;
-    width: 450px;
-    height: 250px;
-    border-radius: 25px;
-}
-
-.cardSimples_informacoes{
     text-align: left;
-}
-.cardSimples_informacoes h2{
-    font-size: 25px;
-}
-.cardSimples_informacoes p{
-    font-size: 15px;
 }
