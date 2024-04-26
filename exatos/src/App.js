@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import CardSimples from './components/simples/CardSimples';
 
 function App() {
   return (
@@ -9,6 +10,9 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+
+        <CardSimples materiaId="1"></CardSimples>              
+
         <a
           className="App-link"
           href="https://reactjs.org"
