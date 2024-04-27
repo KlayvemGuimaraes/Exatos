@@ -14,13 +14,10 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />}/>
-        <Route path="/card-simples" element={<CardSimples />} />
-        <Route path="/card-figura" element={<CardFigura />} />
-        <Route path="/grade-figura" element={<GradeFigura />} />
       </Routes>
       <Footer />
     </Router>
   );
-}
+}cl
 
 export default App;

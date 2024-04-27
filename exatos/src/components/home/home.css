@@ -1,7 +1,6 @@
 /* styles.css */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&family=Sora:wght@100..800&display=swap');
 
-
 nav {
     display: flex;
     align-items: center;
@@ -73,7 +72,6 @@ nav {
     font-weight: 500;
   }
 
-  
   /*Materias*/
   .App {
     text-align: center;
@@ -113,4 +111,3 @@ nav {
       transform: rotate(360deg);
     }
   }
-  
