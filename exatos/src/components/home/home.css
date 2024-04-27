@@ -54,7 +54,10 @@ nav {
     font-family: "Sora", sans-serif;
     border-radius: 400px;
     border: #32557e 1px;
-    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 
   .btn_comunidade {
