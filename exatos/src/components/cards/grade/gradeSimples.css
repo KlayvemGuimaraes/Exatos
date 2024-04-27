@@ -1,0 +1,49 @@
+.container_gradeFigura{
+    margin: 0 175px;
+}
+
+.container_gradeFigura h2{ font-size: 25px; }
+.container_gradeFigura p{ font-size: 20px; }
+
+.gradeFigura_topo{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 25px;
+}
+
+.gradeFigura_imgLateral{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gradeFigura_imgLateral img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.gradeFigura_textoLateral{
+    width: 50%;
+    text-align: left;
+}
+
+/* css da grade de images extras */
+.gradeFigura_baixo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.gradeFigura_baixo > img{
+    filter: grayscale(100%);
+    height: 130px;
+    width: 325px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.gradeFigura_baixo > img:hover{
+    filter: grayscale(0%);
+}
