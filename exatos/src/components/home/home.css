@@ -55,12 +55,15 @@ nav {
     padding: 10px;
   }
 
-  .btn_comunidade{
+  .btn_comunidade {
     background: -webkit-linear-gradient(left, #1d233e, #32557E);
     color: white;
     font-family: "Sora", sans-serif;
-    border-radius: 400px;
+    border-radius: 10px;
     border: #32557e 1px;
     padding: 14px;
-    font-size: 18px;
+    font-size: 16px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-weight: 500;
   }
