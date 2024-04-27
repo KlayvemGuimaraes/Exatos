@@ -33,6 +33,7 @@
 /* css da grade de images extras */
 .gradeFigura_baixo{
     display: flex;
+    margin-bottom: 100px ;
     justify-content: space-between;
 }
 
