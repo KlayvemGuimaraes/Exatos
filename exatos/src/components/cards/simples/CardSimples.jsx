@@ -1,4 +1,4 @@
-// import './cardSimple.css'
+import './cardSimple.css'
 import dataNoticias from '../../../dados/dataNoticias';
 
 export const CardSimples = ({ materiaId }) => {
@@ -7,13 +7,12 @@ export const CardSimples = ({ materiaId }) => {
     const titulo = dados.titulo
     const resumo = dados.resumo
     const imagemPrincipal = dados.imagens.principal
-    console.log(dados)
     
     return (
         <>
         <div className="container_cardSimples">
             <div className="cardSimples_imagem">
-                <img src={imagemPrincipal} />
+                <img src={imagemPrincipal}/>
             </div>
 
             <div className="cardSimples_informacoes">
