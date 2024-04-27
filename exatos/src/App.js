@@ -5,15 +5,17 @@ import GradeFigura from './components/cards/grade/GradeSimples';
 import CardSimples from './components/cards/simples/CardSimples';
 import CardFigura from './components/cards/figura/CardFigura';
 import Home from './components/home/Home';
-import Navbar from './components/navbar/Navbar';
+import Navbar from './components/Navbar/Navbar';
 import Footer from './components/footer/Footer';
 
-function App() {
+function App({id}) {
   return (
     <Router>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />}/>
+        <Route path={`/${id}`} element={<CardSimples />} />
+        {/* <Route path="/?id" element={<CardSimples />} /> */}
       </Routes>
       <Footer />
     </Router>

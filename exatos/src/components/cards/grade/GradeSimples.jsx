@@ -12,22 +12,24 @@ export const GradeFigura = ({ materiaId }) => {
     return (
         <>
         <div className="container_gradeFigura">
-            <div className='gradeFigura_topo'>
-                <div className='gradeFigura_imgLateral'>
-                    <img src={imagemPrincipal}/>
+            <a href="">
+                <div className='gradeFigura_topo'>
+                    <div className='gradeFigura_imgLateral'>
+                        <img src={imagemPrincipal}/>
+                    </div>
+
+                    <div className='gradeFigura_textoLateral'>
+                        <h2>{titulo}</h2>
+                        <p>{resumo}</p>
+                    </div>
                 </div>
 
-                <div className='gradeFigura_textoLateral'>
-                    <h2>{titulo}</h2>
-                    <p>{resumo}</p>
+                <div className='gradeFigura_baixo'>
+                    <img src={imagensExtras[0]}/>
+                    <img src={imagensExtras[1]}/>
+                    <img src={imagensExtras[2]}/>
                 </div>
-            </div>
-
-            <div className='gradeFigura_baixo'>
-                <img src={imagensExtras[0]}/>
-                <img src={imagensExtras[1]}/>
-                <img src={imagensExtras[2]}/>
-            </div>
+            </a>
         </div>
         </>
     )
