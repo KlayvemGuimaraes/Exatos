@@ -21,7 +21,7 @@ nav {
   .content {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     height: 80vh;
   }
   
@@ -34,4 +34,16 @@ nav {
     text-align: center;
     padding: 0 2rem;
   }
-  
+  .navbar_section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px;
+  }
+
+  .navbar_sections li a {
+    display: flex;
+    font-weight: 200;
+    text-decoration: none;
+    color: black;
+  }

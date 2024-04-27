@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../../imgs/image.png'
+import imageExatos from '../../imgs/ExatosImage.png'
 import './home.css'
 
 const Home = () => {
@@ -7,11 +7,13 @@ const Home = () => {
     <div>
       <div className="content">
         <div className="text">
-          <h1>Bem-vindo à minha página inicial</h1>
-          <p>Esta é uma página inicial avançada em React com uma barra de navegação, texto à esquerda e imagem à direita.</p>
+          <button className='btn'>SEJA BEM-VINDO</button>
+            <h1>A comunidade nerd está aqui :)</h1>
+            <p>Assine nossa newsletter para receber as melhores oportunidades da comunidade geek.</p>
+          <button className='btn_comunidade'>Faça parte dessa comunidade!</button>
         </div>
         <div className="image">
-          <img src={logo} alt="Logo" className="logo" />
+          <img src={imageExatos} alt="Logo" className="logo" />
         </div>
       </div>
     </div>

@@ -1,18 +1,20 @@
-import logo from '../../imgs/image.png'
+import exatosLogo from '../../imgs/Logo.png'
 import './navbar.css'
 
 const Navbar = () => {
     return (
       <>
-      <nav>
+      <nav className="navbar_section">
         <div>
-          <img src={logo} alt="Logo" className="logo" />
+          <img src={exatosLogo} alt="exatosLogo" className="logo" style={{ width: '10%', height: '10%' }} />
         </div>
         <div>
-          <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/about">Sobre</a></li>
-            <li><a href="/contact">Contato</a></li>
+          <ul className="navbar_sections">
+            <li><a href="/">Newslleter</a></li>
+            <li><a href="/">Oportunidades</a></li>
+            <li><a href="/">Jogos</a></li>
+            <li><a href="/">Leitura</a></li>
+            <li><a href="/about">Eventos</a></li>
           </ul>
         </div>
       </nav>
