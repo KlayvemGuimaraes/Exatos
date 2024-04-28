@@ -10,9 +10,13 @@ export const CardFigura = ({ materiaId }) => {
     
     return (
         <>
-        <div className="container_cardFigura" style={{backgroundImage: `url(${imagemPrincipal})`}}>
-            <h2>{titulo}</h2>
-            <p>{resumo}</p>
+        <div className='container_geralCardFigura'>
+            <a href={materiaId}>
+                <div className="container_cardFigura" style={{backgroundImage: `url(${imagemPrincipal})`}}>
+                    <h2>{titulo}</h2>
+                    <p>{resumo}</p>
+                </div>
+            </a>
         </div>
         </>
     )

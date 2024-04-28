@@ -2,6 +2,10 @@
     margin: 0 175px;
 }
 
+.container_gradeFigura a{ 
+    text-decoration: none;
+    color: white;
+}
 .container_gradeFigura h2{ font-size: 25px; }
 .container_gradeFigura p{ font-size: 20px; }
 
