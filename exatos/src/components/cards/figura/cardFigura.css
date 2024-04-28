@@ -1,27 +1,49 @@
-.container_cardFigura{
-    filter: grayscale(100%);
+.container_cardFigura {
+    position: relative;
     padding: 0 45px;
     padding-top: 300px;
+    padding-bottom: 50px;
     margin: 30px 150px;
     gap: 50px;
     border-radius: 22px;
-
     text-align: left;
+    overflow: hidden; /* Para evitar que o ::before estenda além dos limites da div */
 }
 
-.container_geralCardFigura a{ 
+.container_geralCardFigura a { 
     text-decoration: none;
     color: white;
 }
 
-.container_cardFigura > h2{
+.container_cardFigura::before {
+    content: ""; /* Importante para o pseudo-elemento ser exibido */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Cor preta com 50% de opacidade */
+    border-radius: 22px; /* Igual ao raio da borda da div principal */
+    z-index: -1; /* Coloca o pseudo-elemento atrás do conteúdo */
+}
+
+.container_cardFigura > h2, 
+.container_cardFigura > p {
+    position: relative; /* Para garantir que o texto fique sobre o fundo escurecido */
+    z-index: 1; /* Coloca o texto sobre o pseudo-elemento */
+}
+
+.container_cardFigura > h2 {
     margin-top: 100px;
     padding: 50px;
-
     margin-bottom: 30px;
 }
 
-.container_cardFigura > p{
+.container_cardFigura > p {
     padding: 50px;
     margin-top: -100px;
+}
+
+.container_cardFigura {
+    filter: grayscale(100%);
 }

@@ -8,6 +8,7 @@ export const GradeFigura = ({ materiaId }) => {
     const resumo = dados.resumo
     const imagemPrincipal = dados.imagens.principal
     const imagensExtras = dados.imagens.extras
+    const categorias = dados.categorias
     
     return (
         <>
@@ -22,6 +23,11 @@ export const GradeFigura = ({ materiaId }) => {
                     <div className='gradeFigura_textoLateral'>
                         <h2>{titulo}</h2>
                         <p>{resumo}</p>
+                        <div className='categorias'>
+                            {categorias.map( (value, index) => (
+                                <label className={value}>{value}</label>
+                            ))}
+                        </div>
                     </div>
                 </div>
 

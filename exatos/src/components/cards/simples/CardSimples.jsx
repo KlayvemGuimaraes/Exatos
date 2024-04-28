@@ -7,6 +7,8 @@ export const CardSimples = ({ materiaId }) => {
     const titulo = dados.titulo
     const resumo = dados.resumo
     const imagemPrincipal = dados.imagens.principal
+    const categorias = dados.categorias
+    console.log(categorias)
     
     return (
         <>
@@ -20,10 +22,16 @@ export const CardSimples = ({ materiaId }) => {
                     <div className="cardSimples_informacoes">
                         <h2>{titulo}</h2>
                         <p>{resumo}</p>
+                        <div className='categorias'>
+                            {categorias.map( (value, index) => (
+                                <label className={value}>{value}</label>
+                            ))}
+                        </div>
                     </div>
                 </div>
             </a>
         </div>
+
         </>
     )
 }

@@ -161,7 +161,7 @@ export const dataNoticias = [
         ],
         "resumo": "Em 10 de abril de 2024, a série do Prime Video vêm recebendo grande atenção dos internautas e fãs do jogo original.  Saiba mais sobre seu lançamento, sua produção e a onda de promoções que o jogo vem obtendo para divulgação da série.",
         "imagens": {
-            "principal": "https://s2-quem.glbimg.com/B9CGiD9ub476WuQFFK5_pmGiWuc=/0x0:1400x950/888x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_b0f0e84207c948ab8b8777be5a6a4395/internal_photos/bs/2024/J/Q/ne4Wm3TDGLBMwFxWEOwg/fallout.jpg",
+            "principal": "https://m.media-amazon.com/images/S/pv-target-images/a68dae2d49d655b17f082fa17b88d3238feba4cb22154e88c0426e1739342629.png",
             "extras": [
                 "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBKnbc3Ntqd263sILF6rX4YkIRX2aDLg5A3yGgH1GZch8gGHCtR7651dDBDkibK-P-eKTOb2Ev0auKmD02Lnuu5g7VwkxtVpJeQQFtSGovlrwpNardxj9zlWDxVG4MYbqdTqTrvytM6NP1TGWsoCB4IazuV9pkus9Ssh2pwOjEMvVL5VaAtb75SGoZhas/s1920/fallout-serie-prime-video-primeiras-imagens-divulgadas.jpg",
                 "https://t2.tudocdn.net/707893?w=824&h=494",

@@ -1,0 +1,15 @@
+.container_geralGrandeFigura  { margin: 0 150px; } 
+.container_geralGrandeFigura a { 
+    text-decoration: none;
+    color: white;  
+}
+
+.container_grandeFigura {
+    position: relative;
+    width: 100%;
+    height: 350px;
+    gap: 50px;
+    border-radius: 22px;
+    text-align: left;
+    overflow: hidden; /* Para evitar que o ::before estenda além dos limites da div */
+}

@@ -2,6 +2,7 @@ import React from 'react';
 import imageExatos from '../../imgs/ExatosImage.png'
 import './home.css'
 import GradeFigura from '../cards/grade/GradeSimples';
+import GrandeFigura from '../cards/grandeFigura/GrandeFigura';
 import CardSimples from '../cards/simples/CardSimples';
 import CardFigura from '../cards/figura/CardFigura';
 
@@ -20,9 +21,14 @@ const Home = () => {
                 </div>
         </div>
           <div className="App-header">
-              <CardSimples materiaId="1"></CardSimples>
               <CardFigura materiaId="3"></CardFigura>
+              <CardSimples materiaId="1"></CardSimples>
+              <CardFigura materiaId="8"></CardFigura>
+              <GradeFigura materiaId="4"></GradeFigura>
+              <GrandeFigura materiaId = "10"></GrandeFigura>
               <GradeFigura materiaId="2"></GradeFigura>
+              <CardSimples materiaId="5"></CardSimples>
+              <GrandeFigura materiaId = "9"></GrandeFigura>
           </div>
   </div>
   );

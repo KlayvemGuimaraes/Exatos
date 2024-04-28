@@ -1,7 +1,7 @@
-import './cardFigura.css'
+import './grandeFigura.css'
 import dataNoticias from '../../../dados/dataNoticias';
 
-export const CardFigura = ({ materiaId }) => {
+export const GrandeFigura = ({ materiaId }) => {
 
     const dados = dataNoticias[materiaId - 1];
     const titulo = dados.titulo
@@ -11,9 +11,12 @@ export const CardFigura = ({ materiaId }) => {
     
     return (
         <>
-        <div className='container_geralCardFigura'>
+        <div className='container_geralGrandeFigura'>
             <a href={materiaId}>
-                <div className="container_cardFigura" style={{backgroundImage: `url(${imagemPrincipal }) `, backgroundRepeat: 'no-repeat', backgroundSize: 'cover'}}>
+                <div className="container_grandeFigura" style={{backgroundImage: `url(${imagemPrincipal }) `, backgroundRepeat: 'no-repeat', backgroundSize: 'cover'}}>
+                
+                </div>
+                <div className='grandeFigura_conteudo'>
                     <h2>{titulo}</h2>
                     <p>{resumo}</p>
                     <div className='categorias'>
@@ -28,4 +31,4 @@ export const CardFigura = ({ materiaId }) => {
     )
 }
   
-export default CardFigura
+export default GrandeFigura
