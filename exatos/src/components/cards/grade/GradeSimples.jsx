@@ -3,7 +3,7 @@ import dataNoticias from '../../../dados/dataNoticias'
 
 export const GradeFigura = ({ materiaId }) => {
 
-    const dados = dataNoticias[materiaId]
+    const dados = dataNoticias[materiaId - 1 ]
     const titulo = dados.titulo
     const resumo = dados.resumo
     const imagemPrincipal = dados.imagens.principal
@@ -16,7 +16,7 @@ export const GradeFigura = ({ materiaId }) => {
             <a href={materiaId}>
                 <div className='gradeFigura_topo'>
                     <div className='gradeFigura_imgLateral'>
-                        <img src={imagemPrincipal}/>
+                        <img src={imagemPrincipal} alt="imagem" />
                     </div>
 
                     <div className='gradeFigura_textoLateral'>
@@ -26,9 +26,9 @@ export const GradeFigura = ({ materiaId }) => {
                 </div>
 
                 <div className='gradeFigura_baixo'>
-                    <img src={imagensExtras[0]}/>
-                    <img src={imagensExtras[1]}/>
-                    <img src={imagensExtras[2]}/>
+                    <img src={imagensExtras[0]} alt="imagem" />
+                    <img src={imagensExtras[1]} alt="imagem" />
+                    <img src={imagensExtras[2]} alt="imagem" />
                 </div>
             </a>
         </div>

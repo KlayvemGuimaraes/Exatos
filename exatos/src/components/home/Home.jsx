@@ -21,8 +21,8 @@ const Home = () => {
         </div>
           <div className="App-header">
               <CardSimples materiaId="1"></CardSimples>
-              <CardFigura materiaId="2"></CardFigura>
-              <GradeFigura materiaId="3"></GradeFigura>
+              <CardFigura materiaId="3"></CardFigura>
+              <GradeFigura materiaId="2"></GradeFigura>
           </div>
   </div>
   );

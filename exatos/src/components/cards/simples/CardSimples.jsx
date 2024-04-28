@@ -3,7 +3,7 @@ import dataNoticias from '../../../dados/dataNoticias';
 
 export const CardSimples = ({ materiaId }) => {
 
-    const dados = dataNoticias[materiaId];
+    const dados = dataNoticias[materiaId - 1];
     const titulo = dados.titulo
     const resumo = dados.resumo
     const imagemPrincipal = dados.imagens.principal
@@ -14,7 +14,7 @@ export const CardSimples = ({ materiaId }) => {
             <a href={materiaId}>
                 <div className="container_cardSimples">
                     <div className="cardSimples_imagem">
-                        <img src={imagemPrincipal}/>
+                        <img src={imagemPrincipal} alt='imagem'/>
                     </div>
 
                     <div className="cardSimples_informacoes">
