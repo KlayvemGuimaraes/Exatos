@@ -12,7 +12,8 @@ export const GradeFigura = ({ materiaId }) => {
     return (
         <>
         <div className="container_gradeFigura">
-            <a href="">
+            
+            <a href={materiaId}>
                 <div className='gradeFigura_topo'>
                     <div className='gradeFigura_imgLateral'>
                         <img src={imagemPrincipal}/>

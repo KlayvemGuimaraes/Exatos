@@ -7,3 +7,8 @@
 
     text-align: left;
 }
+
+.container_geralCardFigura a{ 
+    text-decoration: none;
+    color: white;
+}

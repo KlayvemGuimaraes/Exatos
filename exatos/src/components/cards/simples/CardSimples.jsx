@@ -10,15 +10,19 @@ export const CardSimples = ({ materiaId }) => {
     
     return (
         <>
-        <div className="container_cardSimples">
-            <div className="cardSimples_imagem">
-                <img src={imagemPrincipal}/>
-            </div>
+        <div className='container_geralCardSimples'>
+            <a href={materiaId}>
+                <div className="container_cardSimples">
+                    <div className="cardSimples_imagem">
+                        <img src={imagemPrincipal}/>
+                    </div>
 
-            <div className="cardSimples_informacoes">
-                <h2>{titulo}</h2>
-                <p>{resumo}</p>
-            </div>
+                    <div className="cardSimples_informacoes">
+                        <h2>{titulo}</h2>
+                        <p>{resumo}</p>
+                    </div>
+                </div>
+            </a>
         </div>
         </>
     )

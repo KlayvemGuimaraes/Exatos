@@ -1,3 +1,8 @@
+.container_geralCardSimples a{
+    text-decoration: none;
+    color: white;
+}
+
 .container_cardSimples{
     display: flex;
     margin: 30px 150px;
