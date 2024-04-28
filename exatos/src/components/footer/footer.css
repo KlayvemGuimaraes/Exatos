@@ -36,7 +36,7 @@ footer {
 
 .newsletter input[type="submit"] {
     padding: 10px 20px;
-    background-color: #007bff;
+    background-color: #32557e;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -45,7 +45,7 @@ footer {
 }
 
 .newsletter input[type="submit"]:hover {
-    background-color: #0056b3;
+    background-color: #32557e;
 }
 
 .desenvolvedores p {

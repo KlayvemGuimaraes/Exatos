@@ -1,4 +1,4 @@
-const dataNoticias = [
+export const dataNoticias = [
 
     //********* ORGANIZAÇÃO DOS DADOS DAS NOTÍCIAS **********//
     // {

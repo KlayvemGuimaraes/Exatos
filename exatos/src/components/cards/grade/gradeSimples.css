@@ -37,14 +37,17 @@
 /* css da grade de images extras */
 .gradeFigura_baixo{
     display: flex;
-    margin-bottom: 100px ;
+    margin-bottom: 100px;
     justify-content: space-between;
 }
 
 .gradeFigura_baixo > img{
     filter: grayscale(100%);
     height: 130px;
-    width: 325px;
+    
+    width: 30%;
+    height: 250px;
+
     object-fit: cover;
     border-radius: 15px;
 }

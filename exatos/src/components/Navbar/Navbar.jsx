@@ -14,7 +14,7 @@ const Navbar = () => {
             <li><a href="/">Oportunidades</a></li>
             <li><a href="/">Jogos</a></li>
             <li><a href="/">Leitura</a></li>
-            <li><a href="/about">Eventos</a></li>
+            <li><a href="/">Eventos</a></li>
           </ul>
         </div>
       </nav>
