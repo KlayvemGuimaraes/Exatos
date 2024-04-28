@@ -46,7 +46,7 @@ export const dataNoticias = [
             "Jogos",
             "Filmes"
         ],
-        "resumo": "Conheça agora a mais recente animação de sucesso baseada nos jogos da Nintendo que em breve entrará na Netflix. O filme, com dublagem de grandes figuras de Hollywood como Jack Black, Anya Taylor-Joy, Chris Pratt e Seth Rogen recebeu diversas avaliações positivas do público.",
+        "resumo": "Conheça agora a mais recente animação de sucesso baseada nos Jogos da Nintendo que em breve entrará na Netflix. O filme, com dublagem de grandes figuras de Hollywood como Jack Black, Anya Taylor-Joy, Chris Pratt e Seth Rogen recebeu diversas avaliações positivas do público.",
         "imagens": {
             "principal": "https://www.koimoi.com/wp-content/new-galleries/2023/12/the-super-mario-bros-movie-cast-salary-001.jpg",
             "extras": [
@@ -55,7 +55,7 @@ export const dataNoticias = [
                 "https://www.cinematographe.it/wp-content/uploads/2023/03/super-mario-film.jpg"
             ]
         },
-        "conteudo": "“Super Mario Bros - o filme”, lançado recentemente, dirigido por Aaron Horvath e Michael Jelenic e baseado no icônico personagem da Nintendo, trouxe uma nova abordagem à narrativa familiar. Combinando animação e live-action, o filme busca mergulhar os espectadores em uma aventura épica através do Reino do Cogumelo, misturando uma nostalgia dos antigos jogadores e incluindo os fãs do personagem das novas gerações.\n\nNesse filme, Mario e Luigi são encanadores residentes de Nova York, que após um comercial mal sucedido na mídia e um trágico desfecho em um serviço de conserto de pia, Mário decide provar ao mundo que é um encanador de sucesso ao tentar salvar a cidade de um alagamento de esgoto.\n\nComo já dito, a verdade é que tanto as crianças de seis anos de idade quanto as crianças de trinta que cresceram com o nintendinho provavelmente terão reações muito parecidas assistindo Super Mario Bros. - O Filme. É praticamente impossível não passar boa parte da uma hora e meia com um pequeno sorriso  no rosto, seja pelo humor genuinamente inocente da história ou pelo reconhecimento de uma infinidade de referências aos jogos que acompanharam e continuam fazendo parte do crescimento das últimas gerações. É com um espírito bem-humorado e tão acelerado quanto seus famosos karts que a dupla de encanadores mais famosa da cultura pop ganha seu longa-metragem mais interessante (até agora).\n\nCom uma trilha sonora icônica (e muito engraçada), contendo canções cantadas pelo famoso ator de HollyWood Jack Black, também conhecido por sua atuação em “Escola de Rock”, “Jumanji” e “Kung Fu Panda” e Anya Taylor-Joy, famosa por sua atuação na série “O Gambito da Rainha”.\n\nO filme atualmente possui uma pontuação de 95% de pontos de audiência no site de reviews cinematográficas “Rotten Tomatoes”."
+        "conteudo": "“Super Mario Bros - o filme”, lançado recentemente, dirigido por Aaron Horvath e Michael Jelenic e baseado no icônico personagem da Nintendo, trouxe uma nova abordagem à narrativa familiar. Combinando animação e live-action, o filme busca mergulhar os espectadores em uma aventura épica através do Reino do Cogumelo, misturando uma nostalgia dos antigos jogadores e incluindo os fãs do personagem das novas gerações.\n\nNesse filme, Mario e Luigi são encanadores residentes de Nova York, que após um comercial mal sucedido na mídia e um trágico desfecho em um serviço de conserto de pia, Mário decide provar ao mundo que é um encanador de sucesso ao tentar salvar a cidade de um alagamento de esgoto.\n\nComo já dito, a verdade é que tanto as crianças de seis anos de idade quanto as crianças de trinta que cresceram com o nintendinho provavelmente terão reações muito parecidas assistindo Super Mario Bros. - O Filme. É praticamente impossível não passar boa parte da uma hora e meia com um pequeno sorriso  no rosto, seja pelo humor genuinamente inocente da história ou pelo reconhecimento de uma infinidade de referências aos Jogos que acompanharam e continuam fazendo parte do crescimento das últimas gerações. É com um espírito bem-humorado e tão acelerado quanto seus famosos karts que a dupla de encanadores mais famosa da cultura pop ganha seu longa-metragem mais interessante (até agora).\n\nCom uma trilha sonora icônica (e muito engraçada), contendo canções cantadas pelo famoso ator de HollyWood Jack Black, também conhecido por sua atuação em “Escola de Rock”, “Jumanji” e “Kung Fu Panda” e Anya Taylor-Joy, famosa por sua atuação na série “O Gambito da Rainha”.\n\nO filme atualmente possui uma pontuação de 95% de pontos de audiência no site de reviews cinematográficas “Rotten Tomatoes”."
     },
     // 3- Percy Jackson
     {
@@ -63,7 +63,7 @@ export const dataNoticias = [
         "titulo": "Percy Jackson renovado para a 2º temporada no Disney+!",
         "categorias": [
             "Filmes",
-            "leituras"
+            "Leituras"
         ],
         "resumo": "Percy Jackson e os Olimpianos, aclamada série da Disney baseada na saga literária do americano Rick Riordan, acaba de ser renovada para sua segunda temporada. Fãs dos livros e da produção se animam com a notícia.",
         "imagens": {
@@ -81,8 +81,8 @@ export const dataNoticias = [
         "id": "4",
         "titulo": "Cientistas ganhadores do Nobel realizam um bate-papo em evento na USP",
         "categorias": [
-            "oportunidades",
-            "eventos"
+            "Oportunidades",
+            "Eventos"
         ],
         "resumo": "Três laureados estiveram em evento na Universidade e interagiram com a comunidade em um bate-papo sobre a carreira científica na última quarta-feira 17/04/2024. Saiba mais sobre as conversas, conselhos e a trajetória dos homenageados do Nobel em Física, Química e Medicina!",
         "imagens": {
@@ -100,8 +100,8 @@ export const dataNoticias = [
         "id": "5",
         "titulo": "A CPBR16 está chegando a São Paulo em julho de 2024",
         "categorias": [
-            "oportunidades",
-            "eventos"
+            "Oportunidades",
+            "Eventos"
         ],
         "resumo": "Chegando a sua 16ª edição, a Campus Party Brasil se reinventa e se renova, mas continua sendo o maior festival sobre tecnologia, disrupção, empreendedorismo e STEAM! Saiba tudo sobre o evento que ocorrerá entre os dias 09 a 14 de Julho.",
         "imagens": {
@@ -138,7 +138,7 @@ export const dataNoticias = [
         "titulo": "Live-Action de Naruto será dirigido por Destin Daniel Cretton",
         "categorias": [
             "Filmes",
-            "leituras"
+            "Leituras"
         ],
         "resumo": "Após o grande sucesso da adaptação live-action de One Piece, parece que Naruto também terá seu momento de glória! Dirigido pelo diretor de “Shang Chi e a lenda dos dez aneis”, Cretton é contratado como diretor e roteirista da adaptação do tão adorado anime.",
         "imagens": {
@@ -149,7 +149,7 @@ export const dataNoticias = [
                 "https://img.elo7.com.br/product/600x380/3B75995/papel-de-parede-adesivo-manga-naruto-vs-sasuke-anime-adesivo.jpg"
             ]
         },
-        "conteudo": "\"Naruto\" é um anime e mangá criado por Masashi Kishimoto, que conta a história de Naruto Uzumaki, um jovem ninja com o sonho de se tornar o líder de sua aldeia, o Hokage. Ambientado em um mundo ninja fictício, a série aborda temas de amizade, determinação e redenção, enquanto Naruto e seus amigos enfrentam desafios, inimigos poderosos e descobrem segredos sobre o passado de sua vila e sua própria linhagem. Lançado em 2002, \"Naruto\" rapidamente se tornou um fenômeno mundial, conquistando fãs com sua narrativa emocionante e personagens cativantes.\n\nCriado por Masashi Kishimoto, a história do jovem ninja foi publicada de 1999 a 2014 no Japão e foi adaptado em duas séries de anime, Naruto e Naruto Shippuden, cobrindo toda a história de 2002 a 2017.\n\nNaruto se tornou um fenômeno mundial, lado a lado com outros gigantes da animação japonesa, como Dragon Ball e One Piece. Ainda não se sabe exatamente como será a adaptação, que foi anunciada pela Lionsgate em 2015 e teve alguma informação divulgada apenas em novembro de 2023, quando foi confirmada a contratação da roteirista Tasha Huo, de Red Sonja e da animação de Tomb Raider, para trabalhar em sua história.\n\n\"Depois de gostar de seus outros filmes e entender que o seu forte é criar dramas sólidos sobre pessoas, eu me convenci que não existe outro diretor para Naruto. Após conhecê-lo, também descobri que ele é uma pessoa aberta a colaboração, disposto a aceitar minhas ideias e acredito que vamos conseguir trabalhar juntos no processo de produção.\" - Afirmou o autor do mangá do personagem."
+        "conteudo": "\"Naruto\" é um anime e mangá criado por Masashi Kishimoto, que conta a história de Naruto Uzumaki, um jovem ninja com o sonho de se tornar o líder de sua aldeia, o Hokage. Ambientado em um mundo ninja fictício, a série aborda temas de amizade, determinação e redenção, enquanto Naruto e seus amigos enfrentam desafios, inimigos poderosos e descobrem segredos sobre o passado de sua vila e sua própria linhagem. Lançado em 2002, \"Naruto\" rapidamente se tornou um fenômeno mundial, conquistando fãs com sua narrativa emocionante e personagens cativantes.\n\nCriado por Masashi Kishimoto, a história do jovem ninja foi publicada de 1999 a 2014 no Japão e foi adaptado em duas séries de anime, Naruto e Naruto Shippuden, cobrindo toda a história de 2002 a 2017.\n\nNaruto se tornou um fenômeno mundial, lado a lado com outros gigantes da animação japonesa, como Dragon Ball e One Piece. Ainda não se sabe exatamente como será a adaptação, que foi anunciada pela Lionsgate em 2015 e teve alguma informação divulgada apenas em novembro de 2023, quando foi confirmada a contratação da roteirista Tasha Huo, de Red Sonja e da animação de Tomb Raider, para trabalhar em sua história.\n\n\"Depois de gostar de seus outros Filmes e entender que o seu forte é criar dramas sólidos sobre pessoas, eu me convenci que não existe outro diretor para Naruto. Após conhecê-lo, também descobri que ele é uma pessoa aberta a colaboração, disposto a aceitar minhas ideias e acredito que vamos conseguir trabalhar juntos no processo de produção.\" - Afirmou o autor do mangá do personagem."
     },
     // 8- Fallout Série
     {
@@ -168,14 +168,14 @@ export const dataNoticias = [
                 "https://people.com/thmb/EPAw2PK3DTG43ZbqOID-OXPGIc0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(999x0:1001x2)/kyle-maclachlan-fallout-92b662abe58a4209947c2f6d72e3b384.jpg"
             ]
         },
-        "conteudo": "Baseada no video game de RPG Fallout: A Post Nuclear Role Playing Game lançado em 1997 pela Interplay Productions, a série Fallout segue uma realidade alternativa onde, após a Segunda Guerra Mundial, o avanço tecnológico da guerra gerou sérias consequências para uma troca nuclear apocalíptica, colocando a humanidade à beira de um colapso. A série segue três personagens de origens completamente diferentes: Lucy (Ella Purnell), uma das moradoras do abrigo; Maximus (Aaron Moten), um jovem soldado da facção paramilitar Irmandade de Aço; e The Ghoul (Walton Goggins), um caçador de recompensas que esconde um passado misterioso enquanto sobrevive no deserto.\n\nE para celebrar o seu lançamento no Amazon Prime no dia 10 de abril de 2024, Fallout 76 terá uma Semana “Jogue de Graça” e promoções em todas as plataformas distribuidoras de jogos, como Steam, Xbox e PlayStation.\n\nA adaptação de Fallout conta com a atuação de Ella Purnell, de Yellowjackets e Army of the Dead, e Walton Goggins, de Os Oito Odiados e Homem-Formiga e a Vespa, como protagonistas. Ella Purnell viverá Jean, uma jovem obstinada que pode estar escondendo um segredo perigoso. Ela deixará a Vault 33, bunker pós-apocalíptico da história, e conhecerá o que restou do mundo e seus habitantes. Walton Goggins será Cooper Howard, homem que, por conta da radiação da guerra nuclear, se transforma num Ghoul, e passa a viver centenas de anos como um caçador de recompensas de pele vermelha. Aaron Moten completa o trio como Maximus, um integrante da organização militar Brotherhood of Steel.\n\nO piloto de direção do projeto é Jonathan Nolan, criador de Westworld e roteirista de Batman – Cavaleiro das Trevas. Nolan e Lisa Joy, também criadora da série da HBO, produzem a série."
+        "conteudo": "Baseada no video game de RPG Fallout: A Post Nuclear Role Playing Game lançado em 1997 pela Interplay Productions, a série Fallout segue uma realidade alternativa onde, após a Segunda Guerra Mundial, o avanço tecnológico da guerra gerou sérias consequências para uma troca nuclear apocalíptica, colocando a humanidade à beira de um colapso. A série segue três personagens de origens completamente diferentes: Lucy (Ella Purnell), uma das moradoras do abrigo; Maximus (Aaron Moten), um jovem soldado da facção paramilitar Irmandade de Aço; e The Ghoul (Walton Goggins), um caçador de recompensas que esconde um passado misterioso enquanto sobrevive no deserto.\n\nE para celebrar o seu lançamento no Amazon Prime no dia 10 de abril de 2024, Fallout 76 terá uma Semana “Jogue de Graça” e promoções em todas as plataformas distribuidoras de Jogos, como Steam, Xbox e PlayStation.\n\nA adaptação de Fallout conta com a atuação de Ella Purnell, de Yellowjackets e Army of the Dead, e Walton Goggins, de Os Oito Odiados e Homem-Formiga e a Vespa, como protagonistas. Ella Purnell viverá Jean, uma jovem obstinada que pode estar escondendo um segredo perigoso. Ela deixará a Vault 33, bunker pós-apocalíptico da história, e conhecerá o que restou do mundo e seus habitantes. Walton Goggins será Cooper Howard, homem que, por conta da radiação da guerra nuclear, se transforma num Ghoul, e passa a viver centenas de anos como um caçador de recompensas de pele vermelha. Aaron Moten completa o trio como Maximus, um integrante da organização militar Brotherhood of Steel.\n\nO piloto de direção do projeto é Jonathan Nolan, criador de Westworld e roteirista de Batman – Cavaleiro das Trevas. Nolan e Lisa Joy, também criadora da série da HBO, produzem a série."
     },
     // 9- Technovation Girls
     {
         "id": "9",
         "titulo": "Período de Submissão de projetos do Technovation Girls se encerra dia 24/04",
         "categorias": [
-            "oportunidades"
+            "Oportunidades"
         ],
         "resumo": "Parece que o período de criação e inovação da temporada de Technovation deste ano está prestes a se encerrar, saiba mais sobre o Technovation Girls, ONG patrocinadora de mulheres na tecnologia, e seus impactos nas meninas inovadoras brasileiras!",
         "imagens": {
@@ -193,7 +193,7 @@ export const dataNoticias = [
         "id": "10",
         "titulo": "85 anos de Batman",
         "categorias": [
-            "leituras"
+            "Leituras"
         ],
         "resumo": "Embora a parte II de \"Batman\", com Robert Pattinson, tenha ficado para 2026, os 85 anos do Homem-Morcego não serão ignorados pela indústria pop neste 2024 em que Joaquin Phoenix e Lady Gaga vivem Coringa e Arlequina em \"Joker: Folie à Deux\". Estreia em outubro, de olho no Oscar. Dizem que Bruce Wayne, o alter ego do Morcegão, só deve aparecer ali menino... ou já adolescente.",
         "imagens": {
