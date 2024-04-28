@@ -25,7 +25,7 @@ export const dataNoticias = [
         "id": "1",
         "titulo": "Stardew Valley 1.6 acaba de chegar!",
         "categorias": [
-            "jogos"
+            "Jogos"
         ],
         "resumo": "Após meses de espera, na terça-feira do dia 19/03 o jogo indie favorito de todos os gamers de fazendinha acabou de receber sua tão aclamada atualização 1.6. Ontem (dia 18/04), o mais recente patch de novos conteúdos foi adicionado na versão 1.6.2.",
         "imagens": {
@@ -43,8 +43,8 @@ export const dataNoticias = [
         "id": "2",
         "titulo": "Super Mario Bros - O Filme: em breve na Netflix",
         "categorias": [
-            "jogos",
-            "filmes"
+            "Jogos",
+            "Filmes"
         ],
         "resumo": "Conheça agora a mais recente animação de sucesso baseada nos jogos da Nintendo que em breve entrará na Netflix. O filme, com dublagem de grandes figuras de Hollywood como Jack Black, Anya Taylor-Joy, Chris Pratt e Seth Rogen recebeu diversas avaliações positivas do público.",
         "imagens": {
@@ -62,7 +62,7 @@ export const dataNoticias = [
         "id": "3",
         "titulo": "Percy Jackson renovado para a 2º temporada no Disney+!",
         "categorias": [
-            "filmes",
+            "Filmes",
             "leituras"
         ],
         "resumo": "Percy Jackson e os Olimpianos, aclamada série da Disney baseada na saga literária do americano Rick Riordan, acaba de ser renovada para sua segunda temporada. Fãs dos livros e da produção se animam com a notícia.",
@@ -119,7 +119,7 @@ export const dataNoticias = [
         "id": "6",
         "titulo": "The Sims 5 está em fase de desenvolvimento",
         "categorias": [
-            "jogos"
+            "Jogos"
         ],
         "resumo": "Entenda mais sobre o misterioso “Project Rene”, em atual fase de teste e desenvolvimento. O jogo, desenvolvido pela EA Games e Maxis Studios, possui diversas especulações sobre suas novas funcionalidades, que já foram confirmadas pelas empresas envolvidas.",
         "imagens": {
@@ -137,7 +137,7 @@ export const dataNoticias = [
         "id": "7",
         "titulo": "Live-Action de Naruto será dirigido por Destin Daniel Cretton",
         "categorias": [
-            "filmes",
+            "Filmes",
             "leituras"
         ],
         "resumo": "Após o grande sucesso da adaptação live-action de One Piece, parece que Naruto também terá seu momento de glória! Dirigido pelo diretor de “Shang Chi e a lenda dos dez aneis”, Cretton é contratado como diretor e roteirista da adaptação do tão adorado anime.",
@@ -156,8 +156,8 @@ export const dataNoticias = [
         "id": "8",
         "titulo": "Estreia de Fallout vêm sido aclamada por fãs",
         "categorias": [
-            "jogos",
-            "filmes"
+            "Jogos",
+            "Filmes"
         ],
         "resumo": "Em 10 de abril de 2024, a série do Prime Video vêm recebendo grande atenção dos internautas e fãs do jogo original.  Saiba mais sobre seu lançamento, sua produção e a onda de promoções que o jogo vem obtendo para divulgação da série.",
         "imagens": {

@@ -15,15 +15,27 @@ const DetalhesNoticia = () => {
   const { principal, extras } = imagens;
 
   return (
-    <>
-      <h1>{titulo}</h1>
-      <h3>{categorias}</h3>
-      <p>{conteudo}</p>
-      <img src={principal} alt={titulo} />
-        <img src={extras[0]} alt={titulo} />
-        <img src={extras[1]} alt={titulo} />
-        <img src={extras[2]} alt={titulo} />
-    </>
+    <div className="container">
+        <div className='container_section'>
+          <h1>{titulo}</h1>
+          <h3 className='btn_categoria'>{categorias[0]} e {categorias[1]}</h3>
+            <div className="imagem-principal">
+              <img src={principal} alt={titulo} />
+                <div className='container_bottom'>
+                  <div className="conteudo">
+                    <p>{conteudo}</p>
+                  </div>
+                </div>
+            </div>
+        </div>
+
+        <div className="outras-imagens">
+           {extras.map((imagem, index) => (
+              <img key={index} src={imagem} alt={titulo} />
+           ))}
+        </div>
+        
+    </div>
   );
 };
 

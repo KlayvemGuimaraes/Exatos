@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import exatosLogo from '../../imgs/Logo.png'
 import './navbar.css'
 
@@ -6,7 +7,9 @@ const Navbar = () => {
       <>
       <nav className="navbar_section">
         <div>
-          <img src={exatosLogo} alt="exatosLogo" className="logo" style={{ width: '10%', height: '10%' }} />
+          <Link to={"/"}>
+            <img src={exatosLogo} alt="exatosLogo" className="logo" style={{ width: '10%', height: '10%' }} />
+          </Link>
         </div>
         <div>
           <ul className="navbar_sections">
