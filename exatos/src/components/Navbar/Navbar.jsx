@@ -14,10 +14,11 @@ const Navbar = () => {
         <div>
           <ul className="navbar_sections">
             <li><a href="/">Newslleter</a></li>
-            <li><a href="/">Oportunidades</a></li>
-            <li><a href="/">Jogos</a></li>
-            <li><a href="/">Leitura</a></li>
-            <li><a href="/">Eventos</a></li>
+            <li><a href="/Oportunidades">Oportunidades</a></li>
+            <li><a href="/Jogos">Jogos</a></li>
+            <li><a href="/Filmes">Filmes</a></li>
+            <li><a href="/Leituras">Leituras</a></li>
+            <li><a href="/Eventos">Eventos</a></li>
           </ul>
         </div>
       </nav>
