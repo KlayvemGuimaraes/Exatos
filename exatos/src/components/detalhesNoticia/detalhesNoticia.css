@@ -1,59 +1,61 @@
 .container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    background-color: #f0f0f0;
-  }
-  
-  .image-container {
-    flex: 1;
-    padding: 20px;
-  }
-  
-  .image-container img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-  }
-  
-  .text-container {
-    flex: 2;
-    padding: 20px;
-  }
-  
-  .text-container h2 {
-    margin-bottom: 10px;
-  }
-  
-  .text-container p {
-    line-height: 1.6;
-  }
-  
-  .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    background: -webkit-linear-gradient(left, #1d233e, #32557E);
-    height: 100%;
-  }
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
 
-  .btn_categoria {
-    color: white;
-  }
+.image-container {
+  flex: 1;
+  padding: 20px;
+}
 
-  .container_section h1 {
-    color: white;
-  }
+.image-container img {
+  width: 100%;
+  object-fit: cover;
+  height: auto;
+  border-radius: 8px;
+}
 
-  .conteudo p {
-    color: white;
-  }
+.text-container {
+  flex: 2;
+  padding: 20px;
+}
+
+.text-container h2 {
+  margin-bottom: 10px;
+}
+
+.text-container p {
+  line-height: 1.6;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background: -webkit-linear-gradient(left, #1d233e, #32557E);
+  height: 100%;
+}
+
+.btn_categoria {
+  color: white;
+}
+
+.container_section h1 {
+  color: white;
+}
+
+.conteudo p {
+  color: white;
+}
 
   .container .imagem-principal img {
-    width: 100%;
+    width: 900px;
+    object-fit: cover;
     border-radius: 25px;
   }
 
@@ -63,16 +65,7 @@
   }
 
   .conteudo {
-    padding-left: 10%;
-    padding-right: 10%;
-  }
-
-  .outras-imagens img {
-    display: block;
-    margin-bottom: 10px;
-    max-width: 15%;
-    border-radius: 15px;
-    height: auto;
+    padding: 0 10%;
   }
 
   .outras-imagens {
@@ -81,4 +74,11 @@
     gap: 20px;
     display: flex;
     flex-direction: row;
+  }
+  .outras-imagens img {
+    display: block;
+    margin-bottom: 10px;
+    max-width: 15%;
+    border-radius: 15px;
+    height: auto;
   }

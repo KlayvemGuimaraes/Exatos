@@ -5,6 +5,7 @@ import GradeFigura from '../cards/grade/GradeSimples';
 import GrandeFigura from '../cards/grandeFigura/GrandeFigura';
 import CardSimples from '../cards/simples/CardSimples';
 import CardFigura from '../cards/figura/CardFigura';
+import Dinamico from '../cards/dinamico/Dinamico';
 
 const Home = () => {
   return (
@@ -22,13 +23,15 @@ const Home = () => {
         </div>
           <div className="App-header">
               <CardFigura materiaId="3"></CardFigura>
-              <CardSimples materiaId="1"></CardSimples>
+              <GradeFigura materiaId="2"></GradeFigura>
+              <Dinamico materiaId="7"></Dinamico>
               <CardFigura materiaId="8"></CardFigura>
               <GradeFigura materiaId="4"></GradeFigura>
+              <CardSimples materiaId="1"></CardSimples>
               <GrandeFigura materiaId = "10"></GrandeFigura>
-              <GradeFigura materiaId="2"></GradeFigura>
-              <CardSimples materiaId="5"></CardSimples>
               <GrandeFigura materiaId = "9"></GrandeFigura>
+              <CardSimples materiaId="5"></CardSimples>
+              <Dinamico materiaId="6"></Dinamico>
           </div>
   </div>
   );

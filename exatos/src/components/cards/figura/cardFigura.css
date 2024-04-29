@@ -47,3 +47,12 @@
 .container_cardFigura {
     filter: grayscale(100%);
 }
+
+.container_geralCardFigura {
+    /* Outros estilos aqui */
+    transition: transform 0.3s ease-in-out;
+}
+
+.container_geralCardFigura:hover {
+    transform: scale(1.05); /* ou qualquer valor que você preferir */
+}

@@ -1,5 +1,5 @@
 .container_gradeFigura{
-    margin: 75px 175px;
+    margin: 75px 150px;
 }
 
 .container_gradeFigura a{ 
@@ -37,7 +37,6 @@
 /* css da grade de images extras */
 .gradeFigura_baixo{
     display: flex;
-    margin-bottom: 100px;
     justify-content: space-between;
 }
 
@@ -54,4 +53,13 @@
 
 .gradeFigura_baixo > img:hover{
     filter: grayscale(0%);
+}
+
+.container_gradeFigura {
+    /* Outros estilos aqui */
+    transition: transform 0.3s ease-in-out;
+}
+
+.container_gradeFigura:hover {
+    transform: scale(1.05); /* ou qualquer valor que você preferir */
 }

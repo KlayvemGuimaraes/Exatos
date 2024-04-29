@@ -5,7 +5,7 @@
 
 .container_cardSimples{
     display: flex;
-    margin: 115px 150px;
+    margin: 100px 150px;
     gap: 50px;
 }
 
@@ -29,4 +29,13 @@
 .cardSimples_informacoes > p{
     font-size: 22px;
     margin-bottom: 0;
+}
+
+.container_geralCardSimples {
+    /* Outros estilos aqui */
+    transition: transform 0.3s ease-in-out;
+}
+
+.container_geralCardSimples:hover {
+    transform: scale(1.05); /* ou qualquer valor que você preferir */
 }

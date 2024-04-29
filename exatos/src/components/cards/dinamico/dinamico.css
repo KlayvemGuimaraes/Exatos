@@ -1,0 +1,28 @@
+.container_geralDinamico a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin: 20px 150px;
+}
+
+.container_dinamicoFotos{
+    display: flex;
+    flex-direction: column;
+}
+
+.container_dinamicoFotos img{
+    width: 425px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.container_geralDinamico {
+    /* Outros estilos aqui */
+    transition: transform 0.3s ease-in-out;
+}
+
+.container_geralDinamico:hover {
+    transform: scale(1.05); /* ou qualquer valor que você preferir */
+}

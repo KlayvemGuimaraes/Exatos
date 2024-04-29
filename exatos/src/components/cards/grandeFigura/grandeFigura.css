@@ -1,4 +1,4 @@
-.container_geralGrandeFigura  { margin: 0 150px; } 
+.container_geralGrandeFigura  { margin: 50px 150px; } 
 .container_geralGrandeFigura a { 
     text-decoration: none;
     color: white;  
@@ -12,4 +12,13 @@
     border-radius: 22px;
     text-align: left;
     overflow: hidden; /* Para evitar que o ::before estenda além dos limites da div */
+}
+
+.container_geralGrandeFigura {
+    /* Outros estilos aqui */
+    transition: transform 0.3s ease-in-out;
+}
+
+.container_geralGrandeFigura:hover {
+    transform: scale(1.05); /* ou qualquer valor que você preferir */
 }
