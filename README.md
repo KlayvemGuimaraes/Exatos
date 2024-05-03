@@ -2,7 +2,7 @@
 
 Uma central de notícias voltada para aqueles interessados no conjunto de hobbies, paixões e conhecimentos da cultura e comunidade Geek.
 
-![Print da Tela Inicial](/src/imgs/thumbnail.png)
+![Print da Tela Inicial](/exatos/src/imgs/thumbnail.png)
 
 ## Setup and Documentations
 
